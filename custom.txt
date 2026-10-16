@@ -1,0 +1,18 @@
+! hao6v.org 广告规则 2026-10-16
+||yfrwa.cn^
+||730xiu.cc^
+||uqlfuabd.com^
+||wgeih.cn^
+||99aries.com^
+hao6v.org##.banner.push-right
+
+! H5 打开APP遮罩
+##div[class*="open-app"], ##div[class*="openapp-mask"]
+! 底部固定APP下载横幅
+##div[style*="position:fixed"][style*="bottom"], .app-guide-bottom
+! 移除onclick劫持跳转APP
+*$removeattr,onclick
+! 弹窗mask
+##div[class*="mask"][class*="popup"]
+! 广告拦截检测提示框
+##.adblock-detect, ##.adblock-tip
